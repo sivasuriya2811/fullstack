@@ -1,0 +1,49 @@
+body{
+    color: white;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#s28{
+    font-style: oblique;
+}
+#r28{
+    font-style: normal;
+}
+
+img{
+    height:200px;
+    width:500px;
+    border-radius:100px;
+}
+
+video{
+    height:200px;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: square;
+
+}
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+button:hover{
+    background-color: pink;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#one{
+    color: white;
+}
+
